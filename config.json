@@ -1,0 +1,42 @@
+{
+  "Port": 5000,
+  "AutoStart": false,
+  "FirewallPrompted": true,
+  "Commands": [
+    {
+      "Name": "hlasitost_nahoru",
+      "ActionType": "VolumeUp",
+      "Parameter": ""
+    },
+    {
+      "Name": "hlasitost_dolu",
+      "ActionType": "VolumeDown",
+      "Parameter": ""
+    },
+    {
+      "Name": "ztlumit",
+      "ActionType": "VolumeMute",
+      "Parameter": ""
+    },
+    {
+      "Name": "pauza",
+      "ActionType": "MediaPlayPause",
+      "Parameter": ""
+    },
+    {
+      "Name": "dalsi",
+      "ActionType": "MediaNext",
+      "Parameter": ""
+    },
+    {
+      "Name": "predchozi",
+      "ActionType": "MediaPrevious",
+      "Parameter": ""
+    },
+    {
+      "Name": "zamknout",
+      "ActionType": "LockScreen",
+      "Parameter": ""
+    }
+  ]
+}

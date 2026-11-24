@@ -1,0 +1,25 @@
+# Build outputs & binaries (published via GitHub Releases)
+*.apk
+*.exe
+*.pdb
+
+# Android / Gradle
+android-app/.gradle/
+android-app/.kotlin/
+android-app/build/
+android-app/app/build/
+android-app/local.properties
+
+# Release signing secrets (NEVER commit)
+android-app/keystore.properties
+android-app/*.keystore
+android-app/*.jks
+*.keystore
+*.jks
+
+# IDE & OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
